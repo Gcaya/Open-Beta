@@ -129,6 +129,7 @@ export default StyleSheet.create({
   },
   row: {
     flexDirection: 'row',
+    marginTop: 15,
   },
   rowCenter: {
     alignItems: 'center',
@@ -153,6 +154,12 @@ export default StyleSheet.create({
   scrollSpaceBetween: {
     flexGrow: 1,
     justifyContent: 'space-between',
+  },
+  selfStart: {
+    alignSelf: 'flex-start',
+  },
+  selfEnd: {
+    alignSelf: 'flex-end',
   },
   selfStretch: {
     alignSelf: 'stretch',

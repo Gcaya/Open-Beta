@@ -22,7 +22,7 @@ export default class App extends Component {
          * @see https://github.com/rt2zz/redux-persist/blob/master/docs/PersistGate.md
          */}
         <PersistGate loading={<SplashScreen />} persistor={persistor}>
-          <RootScreen />
+            <RootScreen />
         </PersistGate>
       </Provider>
     )
