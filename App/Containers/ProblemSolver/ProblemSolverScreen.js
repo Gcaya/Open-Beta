@@ -18,7 +18,7 @@ const ProblemSolverScreen = ({dispatch, problem}) => {
 
 
 const mapStateToProps = (state) => ({
-    problem: state.problemSolver.problem.data,
+    problem: state.problemSolver.problem,
 })
 
 export default connect(
